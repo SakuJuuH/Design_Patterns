@@ -1,4 +1,4 @@
-package org.example.components.button;
+package components.button;
 
 public class ButtonB extends Button {
 	protected String text;

@@ -1,4 +1,4 @@
-package org.example.components.checkbox;
+package components.checkbox;
 
 public abstract class Checkbox {
 	protected String text;

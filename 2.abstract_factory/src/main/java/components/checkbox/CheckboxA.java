@@ -1,4 +1,4 @@
-package org.example.components.checkbox;
+package components.checkbox;
 
 public class CheckboxA extends Checkbox {
 	protected String text;

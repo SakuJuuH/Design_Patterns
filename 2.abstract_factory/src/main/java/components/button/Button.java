@@ -1,4 +1,4 @@
-package org.example.components.button;
+package components.button;
 
 public abstract class Button {
 	protected String text;

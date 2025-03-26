@@ -1,4 +1,4 @@
-package org.example.components.textfield;
+package components.textfield;
 
 public abstract class TextField {
 	protected String text;
