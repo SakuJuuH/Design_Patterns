@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>factory_method</module>
+        <module>1.factory_method</module>
+        <module>2.abstract_factory</module>
     </modules>
 
     <properties>
