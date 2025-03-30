@@ -12,6 +12,7 @@
         <module>1.factory_method</module>
         <module>2.abstract_factory</module>
         <module>3.composite</module>
+        <module>4.observer</module>
     </modules>
 
     <properties>
