@@ -13,6 +13,7 @@
         <module>2.abstract_factory</module>
         <module>3.composite</module>
         <module>4.observer</module>
+        <module>5.singleton</module>
     </modules>
 
     <properties>
