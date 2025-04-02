@@ -14,6 +14,9 @@
         <module>3.composite</module>
         <module>4.observer</module>
         <module>5.singleton</module>
+        <module>6.decorator</module>
+        <module>7.state</module>
+        <module>8.template_method</module>
     </modules>
 
     <properties>
