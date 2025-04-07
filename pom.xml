@@ -17,6 +17,8 @@
         <module>6.decorator</module>
         <module>7.state</module>
         <module>8.template_method</module>
+        <module>9.strategy</module>
+        <module>10.chainOfResponsibility</module>
     </modules>
 
     <properties>
