@@ -10,7 +10,6 @@ public class Main {
 		contactRequestHandler.setNextHandler(developmentSuggestionHandler);
 		developmentSuggestionHandler.setNextHandler(generalFeedbackHandler);
 
-		// Create different types of messages
 		Message compensationMessage = new Message(
 				Type.COMPENSATION_CLAIM,
 				"My order #12345 arrived damaged. I would like a refund.",
@@ -31,7 +30,6 @@ public class Main {
 				"I really enjoy your service. Keep up the good work!",
 				"customer4@example.com");
 
-		// Process each message through the chain
 		System.out.println("=== Processing Compensation Claim ===");
 		compensationClaimHandler.handleFeedback(compensationMessage);
 
