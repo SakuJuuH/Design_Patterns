@@ -12,7 +12,10 @@ public abstract class Game {
 	}
 
 	public abstract void initializeGame(int numberOfPlayers);
+
 	public abstract boolean endOfGame();
+
 	public abstract void playSingleTurn(int player);
+
 	public abstract void displayWinner();
 }
