@@ -1,9 +1,9 @@
 package map;
 
-import Tile.BuildingTile;
-import Tile.ForestTile;
-import Tile.RoadTile;
-import Tile.Tile;
+import tile.BuildingTile;
+import tile.ForestTile;
+import tile.RoadTile;
+import tile.Tile;
 
 import java.util.Random;
 

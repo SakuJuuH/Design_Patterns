@@ -1,6 +1,6 @@
 package map;
 
-import Tile.Tile;
+import tile.Tile;
 
 public abstract class Map {
 

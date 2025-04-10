@@ -1,9 +1,9 @@
 package map;
 
-import Tile.ForestTile;
-import Tile.SwampTile;
-import Tile.Tile;
-import Tile.WaterTile;
+import tile.ForestTile;
+import tile.SwampTile;
+import tile.Tile;
+import tile.WaterTile;
 
 import java.util.Random;
 

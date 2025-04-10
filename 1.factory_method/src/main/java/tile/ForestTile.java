@@ -1,14 +1,14 @@
-package Tile;
+package tile;
 
-public class SwampTile implements Tile {
+public class ForestTile implements Tile {
 
 	@Override
 	public char getCharacter() {
-		return 'S';
+		return 'F';
 	}
 
 	@Override
 	public String getType() {
-		return "swamp";
+		return "forest";
 	}
 }
