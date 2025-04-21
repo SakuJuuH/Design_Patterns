@@ -19,6 +19,8 @@
         <module>8.template_method</module>
         <module>9.strategy</module>
         <module>10.chainOfResponsibility</module>
+        <module>11.memento</module>
+        <module>13.visitor</module>
     </modules>
 
     <properties>
