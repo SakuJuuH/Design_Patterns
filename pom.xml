@@ -22,6 +22,7 @@
         <module>11.memento</module>
         <module>13.visitor</module>
         <module>14.builder</module>
+        <module>15.adapter</module>
     </modules>
 
     <properties>
