@@ -23,6 +23,10 @@
         <module>13.visitor</module>
         <module>14.builder</module>
         <module>15.adapter</module>
+        <module>16.bridge</module>
+        <module>17.flyweight</module>
+        <module>18.prototype</module>
+        <module>19.mediator</module>
     </modules>
 
     <properties>
