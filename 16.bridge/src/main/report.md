@@ -105,6 +105,9 @@ public class Demo {
 		basicRemote.volumeUp();
 		basicRemote.channelUp();
 		device.printStatus();
+		basicRemote.volumeDown();
+		basicRemote.channelDown();
+		device.printStatus();
 
 		System.out.println("Tests with smart remote.");
 		SmartRemote smartRemote = new SmartRemote(device);
@@ -112,6 +115,9 @@ public class Demo {
 		smartRemote.volumeUp();
 		smartRemote.channelUp();
 		smartRemote.voiceControl();
+		device.printStatus();
+		smartRemote.volumeDown();
+		smartRemote.channelDown();
 		device.printStatus();
 
 		// Test SmartTv specific functionality if the device is a SmartTv
