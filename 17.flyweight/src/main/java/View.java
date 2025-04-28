@@ -14,12 +14,12 @@ public class View extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		stage.setTitle("Flyweight exercise");
 
 		int mapWidth = 10;
 		int mapHeight = 10;
 
 		Map map = Game.createMap();
+		stage.setTitle(map.getClass().getSimpleName());
 		System.out.println("Generating map...");
 		Tile[][] mapGrid = map.generateMapGrid(mapWidth, mapHeight);
 
