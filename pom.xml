@@ -27,6 +27,9 @@
         <module>17.flyweight</module>
         <module>18.prototype</module>
         <module>19.mediator</module>
+        <module>20.iterator</module>
+        <module>21.facade</module>
+        <module>22.command</module>
     </modules>
 
     <properties>
