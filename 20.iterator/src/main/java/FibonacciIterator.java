@@ -10,7 +10,8 @@ public class FibonacciIterator implements Iterator<Integer> {
 	private int next = 1;
 	private int count = 0;
 
-	// Constructor for a sequence with a set limit
+	// Constructor for the sequence
+	// Takes in limit as a parameter which can either be the default Integer limit or a user-given limit.
 	public FibonacciIterator(int limit) {
 		// State is managed here so each iterator is independent.
 		// The limit is passed from the sequence.
@@ -19,13 +20,6 @@ public class FibonacciIterator implements Iterator<Integer> {
 		}
 		this.limit = limit;
 	}
-
-	// Constructor for a sequence with the default limit of the maximum integer value
-	// This limit will never be reached due to Integer Overflow.
-	public FibonacciIterator() {
-		this(Integer.MAX_VALUE);
-	}
-
 
 	// Checks if the sequence has a next value.
 	// Determined if the given limit is less than the current count of generated fibonacci numbers and
